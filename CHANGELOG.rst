@@ -39,6 +39,7 @@ Fixed
   ``sseclient`` has various issue which cause client to sometimes hang and keep the connection open
   which also causes ``st2 execution tail`` command to hang for a long time. (improvement) #4686
 * Fix orquesta st2kv to return empty string and null values. (bug fix) #4678
+* Allow the orquesta st2kv function to return default for nonexistent key. (improvement) #4678
 
 3.0.0 - April 18, 2019
 ----------------------
